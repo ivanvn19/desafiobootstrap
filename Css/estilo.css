@@ -1,0 +1,360 @@
+*{
+    margin:  0;
+    padding: 0;
+    box-sizing: border-box;    
+}
+body{
+    background: url(https://img.freepik.com/foto-gratis/muro-hormigon-gris_53876-88973.jpg?t=st=1652292481~exp=1652293081~hmac=8d4925b971745e18647f3d0d31eff33478563701455c126d7c1d838ac4214cbe&w=1060);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+
+h1{
+    font-family: 'Anton', sans-serif;
+    font-size: x-large;
+    
+}
+h4{
+    font-family: 'Roboto Flex', sans-serif;
+    font-size: medium;
+}
+h2{
+    font-family: 'Roboto Flex', sans-serif;
+    font-size: medium;
+    text-align: center;
+}
+p{
+    margin: 50px;
+    padding: 1rem;
+    text-align: justify ;
+    font-family: 'Roboto Flex', sans-serif
+}
+.tituloc{
+    font-size: xx-large;
+    font-weight: bold;
+}
+.titulocd{
+    align-items: center auto;
+    align-content: center auto;
+    justify-content: center auto;
+}
+
+header{
+    
+    padding: 0 20px;
+}
+
+header nav ul{
+    display: flex;
+    
+}
+header .navbar ul li{
+    list-style: none;
+    justify-content: space-around;
+}
+header .navbar ul li a{
+    text-decoration: none;
+    font-family: 'Roboto Flex', sans-serif;
+    font-size: x-large;
+    color: black;
+}
+header .navbar ul li a:hover{
+    background-color: black;
+    color: aliceblue;
+}
+
+main{
+    width: 100%;
+    
+}
+.titulocd{
+    padding:2rem;
+    margin: 1rem;
+    height: 10px;
+    width:  1200px;
+    text-align: center;
+    display: inline-block;
+}
+.colecciondestacada{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center auto;
+    align-content: center auto;
+    justify-content:center;
+    
+    
+    
+    /* index photo coleccion destacada*/
+}
+.cd01 img{
+    width: 300px;
+    height: 400px;
+    margin-right: 20px;
+    border-radius: 5px;
+    
+}
+.cd02 img{
+    width: 300px;
+    height: 400px;
+    margin-right: 20px;
+    border-radius: 5px;
+    
+}
+.cd03 img{
+    width: 300px;
+    height: 400px;
+    border-radius: 5px;
+    
+
+}
+.colecciondestacada a:hover{
+    opacity: .7
+    
+}
+.row{
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+.col {
+    padding: 1rem;
+    margin: 1rem;
+}
+.card-body{
+    width: 300px;
+    height: 250px;
+    margin: 1rem;
+    padding: 1rem;
+}
+.card-text-artista{
+    width: 220px;
+    text-align: justify;
+    font-size: small;
+    align-items: center auto;
+    align-content: center auto;
+    justify-content: center auto;
+    padding: 1rem;
+    margin: 0.2rem;
+}
+.card-text{
+    padding: 1rem;
+    margin: 1rem;
+    text-align: justify; 
+    font-family:'Roboto Flex', sans-serif;
+    align-content: center auto;   
+    
+}
+.btn{
+    background-color: grey;
+    padding: 0.4rem;
+    justify-content: center auto;
+    align-items: center auto;
+    align-content: center auto;
+}
+.encabezadocoleccion{
+    margin-right:2rem;
+    padding: 2rem;
+}
+
+
+
+
+/* index photo colecciones*/
+
+.galeriaNOA{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    /* Galería NOA*/ 
+}
+.galeriaNOA img{
+    width: 300px;
+    border-radius: 7px;
+}
+.galeriaNOA img:hover{
+    opacity: .7;
+    border: solid rgb(255, 0, 0) 2px;
+}
+.panoramicanoa{
+    padding: 0.7rem;
+    margin: 70px;
+    width: 1200px;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content:space-between
+
+}
+.panoramicanoa img{
+    width: 1200px;
+    border-radius: 7px;
+}
+.panoramicanoa img:hover{
+    opacity: .7;
+    border: solid rgb(255, 0, 0) 2px;
+}
+.newyork{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    padding: 10px 10px
+    
+    /* Colección destacada galería*/
+}
+.newyork img{
+    width: 250px;
+    border-radius: 7px;
+}
+.newyork img:hover{
+    opacity: .7;
+    border: solid rgb(255, 0, 0) 2px;
+}
+.refcolection{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+    
+    /* Galería Reflejos de acero*/
+}
+.refcolection img{
+    width: 250px;
+    border-radius: 7px;
+}
+.refcolection img:hover{
+    opacity: .7;
+    border: solid rgb(255, 0, 0) 2px;
+}
+.h20colection{
+    padding: 2rem;
+    margin-left: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    
+    /* Galería Water*/
+}
+.h20colection img{
+    width: 250px;
+    border-radius: 7px;
+}
+.h20colection img:hover{
+    opacity: .7;
+    border: solid rgb(255, 0, 0) 2px;
+}
+.mapuchecolection{
+    padding: 2rem;
+    margin-left: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    
+    /*Galería Mapuche*/
+}
+.mapuchecolection img{
+    width: 250px;
+    border-radius: 7px;
+}
+.mapuchecolection img:hover{
+    opacity: .7;
+    border: solid rgb(255, 0, 0) 2px;
+}
+.divinacomedia{
+    margin: 50px;
+    padding: 2rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    
+    /*Galería Divina Comedia*/
+}
+.divinacomedia img{
+    width: 300px;
+    border-radius: 7px;
+    border: 3px solid black;
+}
+.divinacomedia img:hover{
+    opacity: .7;
+    border: solid rgb(255, 0, 0) 2px;
+}
+.bios{
+    margin: 2rem;
+    padding: 20px 20px;
+    font-size: 15px;
+    line-height: 1.5;
+    width: 1200px;
+    
+    /* Página Artist- s bio*/
+}
+.artista{
+    width: 1200px;
+    height: 440px;
+    padding: 10px 10px;
+    font-size: 15px;
+    line-height: 1.5;
+    text-align: justify;
+}
+.artista img{
+    width: 250px;
+    border-radius: 5px;
+    float: left;
+    margin: 2rem;
+    margin-right: 10px;
+}
+.table{
+    margin-left: 350px;
+    padding: 1rem;
+    text-align: center;
+    align-content: center auto;
+    
+    /* Página About us*/
+}
+.mantenimiento{
+    margin-left:350px;
+    padding:1rem;
+    width: 100px;
+    display: block;
+    align-items: center auto;
+    /* index Digital arts*/
+    
+}
+.contactMain{
+    display: flex;
+    flex-direction: row;
+    align-content:center;
+    justify-content:center ;
+    /* Página Contact*/
+}
+.formulario{
+    width: 50%;
+
+}
+.mapa{
+    width: 40%;
+    
+}
+footer{
+    margin: 2rem;
+    padding: 2rem;
+    width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center auto;
+}
+footer a img{
+    width: 50px;
+}
+
+
+
